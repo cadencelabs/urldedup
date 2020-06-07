@@ -1,0 +1,24 @@
+{
+    "name": "cadence/module-catalog-url-rewrite-dedup",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "description": "Magento Dedup Product & Category URLs Extension. See https://www.cadence-labs.com/2017/11/magento-2-fix-duplicate-url-key-for-categories-and-products/",
+    "version" : "1.0.3",
+    "minimum-stability": "alpha",
+    "require": {
+    },
+    "authors": [
+        {
+            "name":"Cadence Labs",
+            "email":"info@cadence-labs.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cadence\\UrlDedup\\": ""
+        }
+    }
+}
