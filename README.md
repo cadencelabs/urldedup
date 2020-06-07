@@ -12,3 +12,10 @@ GNU GPL 3.0
 
 For user guide & full details see: https://www.cadence-labs.com/2017/11/magento-2-deduplicate-category-product-urls/
 
+## Installation
+
+### Composer
+
+```
+$ composer config repositories.cadence-urldedup vcs https://github.com/cadencelabs/urldedup.git
+$ composer require cadence/urldedup:dev-master
